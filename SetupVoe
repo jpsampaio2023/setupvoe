@@ -4606,7 +4606,7 @@ cat > calcom.yaml <<EOL
 version: "3.7"
 services:
   calcom:
-    image: calcom/cal.com:latest
+    image: calcom/cal.com:v3.7.11
     hostname: calcom
     networks:
       - $nome_rede_interna
